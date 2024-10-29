@@ -1,0 +1,81 @@
+{%  extends 'base.html' %}
+{% block start%}
+</head>
+<body>
+    {% include 'nav.html' %}
+<section class="mt-5 pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+               <h1 class="text-primary">About TricodeTally: </h1>
+                <h4 class="text-muted">Collaborate, Code, and Connect</h4> 
+                <p class="my-3">Welcome to TricodeTally, a platform designed to make coding and collaboration easier for developers and tech enthusiasts.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="/static/img1.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-primary"><h1>Our Story</h1> <hr style="width: 100%"></div> <br>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+                <img class="img-fluid" src="/static/about2.avif" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h4 class="display-6 text-justify text-muted font-weight-none">
+                    <small>
+Here’s a story for TricodeTally that captures the spirit of its creation, while weaving in the features of your project:
+
+In a small, dimly lit room, surrounded by empty coffee cups and the soft hum of laptops, a group of friends gathered around a whiteboard filled with scribbled code and ideas. They were programmers at heart—driven by the excitement of creating something new, solving puzzles, and building software that could change the world.
+<br><br>
+It all started with a shared problem. Late-night coding sessions often spilled into endless chats about bugs, solutions, and ideas. They realized that the magic of coding wasn't just in writing perfect code—it was in the moments spent collaborating, brainstorming, and helping each other grow. But as their group grew and their projects became more ambitious, they hit a wall: existing tools weren't built for real-time collaboration, and they lacked the flexibility they craved. They needed a space where coding and communication came together seamlessly, without the constant need to switch between tools.
+                        <br><br>
+                        And thus, TricodeTally was born. It began as a simple idea: a platform where coders could write and debug code together, in real-time, while also having conversations without missing a beat. But the vision grew beyond that. They wanted to create a place where people could not only code together but also learn, share, and improve side by side.
+                    </small>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="text-primary"><h1>Our Mission</h1> <hr style="width: 100%"></div> <br>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h4 class="display-6 text-justify text-muted font-weight-none">
+                    <small>
+                        Our mission is clear: to create a space where programmers can learn, collaborate, and grow as a community. Join us, and let’s build something amazing together!
+                    </small>
+                </h4>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img class="img-fluid" src="/static/about3.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="text-primary"><h1>What Sets Us Apart</h1> <hr style="width: 100%"></div> <br>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <span class="text-primary font-weight-bold">Real-Time Collaboration, Simplified:</span> 
+                     Unlike traditional coding platforms, TricodeTally combines real-time code editing with an integrated chat system, allowing seamless communication
+                </li>
+                <li class="list-group-item"> <span class="text-primary font-weight-bold">Versatile for All Coders:</span> 
+                     Whether you're a competitive programmer, a software developer, or a student, TricodeTally adapts to your needs. It supports multiple programming languages and offers collaborative features that make it perfect for study groups, hackathons, and remote team projects.
+                </li>
+                <li class="list-group-item"> <span class="text-primary font-weight-bold">No Setup Hassle:</span> 
+                     TricodeTally is accessible right from your browser—no installations or complicated setups needed. Start coding and collaborating instantly, whether you’re using a laptop in the office or a tablet on the go.          </li>
+                <li class="list-group-item"> <span class="text-primary font-weight-bold"> Built by Coders, for Coders:</span> 
+                    TricodeTally was created by a team that understands the challenges of coding collaboratively. Every feature, from the code editor to the chat system, is designed with the coder’s experience in mind.        
+                </li>
+                <li class="list-group-item"> <span class="text-primary font-weight-bold"> Scalable for Teams and Projects: </span> 
+                    From small teams to large-scale projects, TricodeTally scales effortlessly. Invite collaborators, manage multiple workspaces, and tackle complex projects together with ease.   </li>
+                
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+{% include 'footer.html'%}
+{%endblock%}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block start%}
+</head>
+
+<body>
+    {% include 'nav.html' %}
+    <div class="container mt-5">
+        <h1 class="text-center">
+            <br>
+            Contact Us</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Submit Feedback</button>
+        </form>
+        
+        {% if messages %}
+            <div class="mt-3">
+                {% for message in messages %}
+                    <div class="alert alert-success">{{ message }}</div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+    {%endblock%}
